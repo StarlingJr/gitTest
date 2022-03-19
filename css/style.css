@@ -1,8 +1,8 @@
 .div {
-  color: red;
+  color: cyan;
   border: 2px dashed brown;
 }
 
 .div:hover {
-  background-color: aqua;
+  background-color: lightskyblue;
 }
