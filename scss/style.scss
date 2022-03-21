@@ -1,6 +1,10 @@
+@mixin styles($color, $b-width: 1px, $b-style: dashed, $b-color: cyan) {    
+    color: $color;
+    border: $b-width $b-style $b-color;
+}
+
 .div {
-    color: red;
-    border: 2px dashed brown;
+    @include styles(lightblue);
     &:hover {
         background-color: aqua;
     }
